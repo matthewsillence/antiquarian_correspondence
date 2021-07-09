@@ -1,2 +1,2 @@
 # antiquarian_correspondence
-Using transcribed references to material culture and locations found in letters between antiquarians to examine the patterns of interest in cultural heritage. Analysis involved geocoding place names mentioned in letters for further analysis using ArcGIS.
+This repository contains transcribed references to material culture and locations found in 162 letters written from Charles George Roberts Birch (1839-1903) to the Rev. J. E. (John Edward) Field (d. 1922), formerly held in the Societyof Antiquaries of London, Library. The data can be used to examine the patterns of interest in monumental brasses in the County of Norfolk. Analysis involved geocoding place names mentioned in letters for further analysis using ArcGIS.
