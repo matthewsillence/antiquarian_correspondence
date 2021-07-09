@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "rights": "http://purl.org/dc/elements/1.1/rights",
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "type": "http://purl.org/dc/elements/1.1/type",
+    "creator": "http://purl.org/dc/elements/1.1/creator",
+    "date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "https://tropy.org/v1/tropy#date"
+    },
+    "audience": "http://purl.org/dc/terms/audience"
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/correspondence",
+      "rights": "Society of Antiquaries. Permission to publish required.",
+      "title": "1891.07.04.f",
+      "type": "Correspondence",
+      "creator": "Birch, Charles George Roberts",
+      "date": "1891-07-04",
+      "audience": "Field, John Edward",
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "fe6b32db5e0267729ed51d3bc1aace52",
+          "color": null,
+          "density": null,
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/matthewsillence/Documents/June 2018/IMG_3590.JPG",
+          "protocol": "file",
+          "size": 1646195,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 90,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 2736,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 3648,
+          "title": "IMG_3590",
+          "date": "2018-06-22T09:57:06.000Z"
+        }
+      ]
+    }
+  ],
+  "version": "1.9.0"
+}
